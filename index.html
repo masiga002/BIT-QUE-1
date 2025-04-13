@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Application Form</title>
+        <style>
+            .h{
+                margin-left: 190px;
+            }
+            .main{
+                display: flex;
+                flex-direction: row;
+                
+            }
+            .f{
+                flex: 0.25;
+                margin-left: 10px;
+            }
+            p{
+                display: inline-block;
+            }
+            .x{
+                width: 120px; 
+                background-color: red;
+                color: white;
+                height: 25px;
+            
+            }
+            .k{
+                margin-left: 150px;
+            }
+            .g{
+                margin-left: 120px;
+                background-color: rgb(44, 76, 80);
+                display: inline-block;
+                padding-left: 10px;
+                padding-top: 30px;
+                height: 500px;
+                padding-right: 10px;
+                
+            }
+            label{
+                color: rgb(255, 255, 255);
+            }
+            p, h1{
+                color: white;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="g">
+<h1 class="h"> Application Form</h1>
+<form>
+    <div class="main">
+      <div class="f">
+    <label for="fname"><span style="margin-right: 25px;">First Name</span></lable>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="date"><span style="margin-right: 12px;">Date of birth</span></label>
+    <input type="date" id="date" name="date"><br><br>
+    <label for="gender" name="gender"><span style="margin-right: 45px;">Gender</span></label>
+    <select type="" id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+    </div>
+
+    <div class="f">
+    <label for="lname"><span style="margin-right: 20px;">Last Name</span></lable>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="age"><span style="margin-right: 59px;">Age</span></lable>
+    <input type="number" id="age" name="age"><br><br>
+    <label for="email"><span style="margin-right: 47px;">Email</span></lable>
+    <input type="email" id="email" name="email" placeholder="enter email address"><br>
+    </div>
+    </div>
+    </form>
+    <form>
+        <p>Positions available</p>
+            <input type="radio" id="h" name="h">
+    <label for="h">Junior Developer</lable>
+    <input type="radio" id="d" name="d">
+    <label for="d">Midle-level Developer</label>
+    <input type="radio" id="z" name="z">
+    <label for="z">Senior Developer</label>
+</form>
+<form>
+    <p>Programming Language</p>
+    <input type="radio" id="java" name="java">
+<label for="java">Java</lable>
+<input type="radio" id="js" name="js">
+<label for="js">Javascript</label>
+<input type="radio" id="py" name="py">
+<label for="py">Python</label><br> 
+<label type="ps">Password</label>
+<span style="margin-right: 40px;"><input type="password" id="ps" name="ps"></span>
+<label type="ps1">Confirm password</label>
+<input type="password" id="ps1" name="ps1"><br><br>
+<div class="k">
+<input class="x" type="submit" id="sub" name="sub">
+<input class="x" type="reset" id="bt" name="bt">
+</div>
+</form>
+
+</div>
+</body>
+</html>
